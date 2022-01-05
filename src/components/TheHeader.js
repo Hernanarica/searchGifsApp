@@ -1,15 +1,13 @@
 import React from 'react';
+import SearchGif from "./SearchGif";
 
 function TheHeader() {
 	return (
 		<>
-			<header className="">
-				<h1>The Header</h1>
-				<ul>
-					<li>
-						<a href="http://"></a>
-					</li>
-				</ul>
+			<header>
+				<div className="px-1">
+					<SearchGif />
+				</div>
 			</header>
 		</>
 	);
