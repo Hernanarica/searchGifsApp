@@ -5,7 +5,7 @@ function TheHeader() {
 	return (
 		<>
 			<header>
-				<div className="px-1">
+				<div className="px-2 py-2">
 					<SearchGif />
 				</div>
 			</header>
