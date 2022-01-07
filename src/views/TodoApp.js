@@ -8,7 +8,7 @@ function TodoApp() {
 	return (
 		<>
 			<TheHeader setGifs={ setGifs } />
-			<main>
+			<main className="px-2">
 				<section className="flex flex-col gap-8 max-w-6xl m-auto">
 					{
 						gifs.map(gif => <GridGifs key={ gif } gif={ gif } />)

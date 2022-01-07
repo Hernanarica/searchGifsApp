@@ -33,6 +33,7 @@ function SearchGif({ setGifs }) {
 					<input type="text"
 					       name="search"
 					       id="search"
+					       autoComplete="off"
 					       value={ search }
 					       placeholder="Buscar Gif"
 					       className="py-2 px-2 block w-full outline-none border-gray-200 rounded border-2 focus:border-blue-500"
